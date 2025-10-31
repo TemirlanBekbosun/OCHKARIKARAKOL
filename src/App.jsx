@@ -48,10 +48,10 @@ export default function OchkarikLanding() {
             <LogoImage src={logo} alt="ochkarik logo" />
           </LogoWrapper>
 
-          <Username>ochkarikarakol</Username>
+          <Username>Очки_Оптика</Username>
         </LogoBlock>
 
-        <Title>OCHKARIK_KARAKOL</Title>
+        <Title>Очки_Оптика</Title>
 
         <ToggleButton onClick={() => setShowButtons(!showButtons)}>
           <ToggleIcon $open={showButtons}>
@@ -249,12 +249,6 @@ const BackgroundImage = styled.img`
 const GradientOverlay = styled.div`
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-      135deg,
-      rgba(255, 175, 75, 0.38),
-      rgba(255, 120, 60, 0.25)
-    ),
-    linear-gradient(to bottom, rgba(255, 204, 0, 0.148), rgba(0, 0, 0, 0.46));
 `;
 
 const ContentWrapper = styled.div`

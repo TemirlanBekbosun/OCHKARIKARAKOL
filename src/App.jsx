@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styled, { css, keyframes } from "styled-components";
 import { Phone, MessageCircle, MapPin, ArrowRightFromLine } from "lucide-react";
-import logo from "./ochkarik_logo.jpg";
+import logo from "./assets/IMG_1987.PNG";
 import backgroundImage from "./bg.jpg";
 
 export default function OchkarikLanding() {
